@@ -1,9 +1,46 @@
-🌳 Tree Species Classifier
-This project focuses on identifying different tree species using image-based classification techniques powered by machine learning. The classifier is trained on labeled images of various tree species to recognize and predict the correct category based on visual features.
+# 🌳 Tree-Species-Classifier
 
-📌 Project Objectives
-Automatically classify tree species from images.
+**Tree-Species-Classifier** is a deep learning-based project aimed at identifying different species of trees from images using Convolutional Neural Networks. The project leverages both a custom-built CNN and a pre-trained **EfficientNet** model to achieve accurate and efficient image classification.
 
-Leverage deep learning techniques for improved accuracy.
+## 📌 Project Overview
 
-Support biodiversity monitoring and forest management with AI tools.
+This project focuses on automating the classification of tree species based on visual features from leaf or bark images. It's designed to support biodiversity research, forestry management, and environmental monitoring efforts using AI.
+
+## 🧠 Models Used
+
+### 1. 🔹 Basic CNN Model
+
+A custom Convolutional Neural Network built from scratch using TensorFlow/Keras. This model serves as a baseline for performance comparison.
+
+### 2. 🔹 EfficientNet
+
+A high-performing transfer learning model (EfficientNetB0) fine-tuned on the dataset for improved accuracy and generalization, especially on small or complex datasets.
+
+## 📂 Dataset
+
+* Images of various tree species
+* Preprocessed with resizing, normalization, and augmentation techniques
+* Split into training, validation, and testing sets
+
+## 🔧 Tech Stack
+
+* **Python**
+* **TensorFlow / Keras**
+* **NumPy, Pandas, Matplotlib**
+* **EfficientNet from `tensorflow.keras.applications`**
+
+## 🧪 Performance Metrics
+
+* Accuracy, Precision, Recall, and F1-score were used to evaluate both models.
+* EfficientNet outperformed the basic CNN in both accuracy and generalization.
+
+## 📌 Future Enhancements
+
+* Expand dataset to include more species
+* Integrate with mobile app for real-time predictions
+* Add explainability (Grad-CAM visualizations)
+
+
+
+Let me know if you want a shorter version, academic tone, or if you're deploying it (so I can add deployment info).
+
