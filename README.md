@@ -41,6 +41,3 @@ A high-performing transfer learning model (EfficientNetB0) fine-tuned on the dat
 * Add explainability (Grad-CAM visualizations)
 
 
-
-Let me know if you want a shorter version, academic tone, or if you're deploying it (so I can add deployment info).
-
