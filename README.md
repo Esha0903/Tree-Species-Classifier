@@ -28,6 +28,11 @@ A high-performing transfer learning model (EfficientNetB0) fine-tuned on the dat
 * **TensorFlow / Keras**
 * **NumPy, Pandas, Matplotlib**
 * **EfficientNet from `tensorflow.keras.applications`**
+
+## 📁 Source Code
+You can access the full source code used for model training and evaluation here:
+
+https://drive.google.com/file/d/1YuWig4KY5dqi1-LNqJV8qk3i7hs9HZP8/view?usp=drive_link
   
 ## 🔗 Model Training File
 You can view the complete training code for this project in the Google Colab  Notebook linked below:
