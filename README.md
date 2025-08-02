@@ -28,6 +28,15 @@ A high-performing transfer learning model (EfficientNetB0) fine-tuned on the dat
 * **TensorFlow / Keras**
 * **NumPy, Pandas, Matplotlib**
 * **EfficientNet from `tensorflow.keras.applications`**
+  
+## 🔗 Model Training File
+You can view the complete training code for this project in the Jupyter Notebook linked below:
+
+https://drive.google.com/file/d/1p4MV2s7r7O7PW3kS9V-HkPu_vO3uBzd6/view?usp=drive_link
+https://drive.google.com/file/d/1tPI3RSwCQ9i5pbHgQdhDrkfeysHPmACr/view?usp=drive_link
+
+This notebook includes data loading, preprocessing, CNN model building, training, and evaluation using the Tree Species Identification dataset.
+
 
 ## 🧪 Performance Metrics
 
